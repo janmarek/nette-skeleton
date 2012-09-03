@@ -21,7 +21,7 @@ nette:
 
 services:
   database: @Nette\Database\Connection
-  router: RouterFactory::createRouter
+  router: Router
 
   wlLessFilter: WebLoader\Filter\LessFilter
 
