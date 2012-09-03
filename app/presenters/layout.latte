@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="robots" content="{$robots}" n:ifset="$robots">
+
+	<title>{if isset($title)}{$title} - {/if}Skeleton</title>
+
+	<link rel="shortcut icon" href="{$basePath}/favicon.png" type="image/x-icon">
+	{control css}
+</head>
+
+<body>
+	{include #content}
+	{control js}
+</body>
+</html>
