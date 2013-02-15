@@ -2,7 +2,7 @@
 	"config": {
 		"vendor-dir": "libs"
 	},
-	"name": "jan-marek/nette-skeleton",
+	"name": "janmarek/nette-skeleton",
 	"description": "Nette skeleton with Adminer Editor, Composer, PhpUnit, WebLoader and Less support",
 	"license": "MIT",
 	"authors": [
