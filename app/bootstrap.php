@@ -4,6 +4,8 @@ require WWW_DIR . '/../libs/autoload.php';
 
 $configurator = new Nette\Config\Configurator();
 
+$debugMode = file_exists(__DIR__ . '/dev');
+$configurator->setDebugMode($debugMode);
 $configurator->enableDebugger(__DIR__ . '/../log');
 
 $configurator->setTempDirectory(__DIR__ . '/../temp');
