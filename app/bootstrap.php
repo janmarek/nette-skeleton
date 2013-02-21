@@ -20,6 +20,9 @@ $configurator->addConfig(__DIR__ . '/config/config.neon', FALSE);
 $configurator->addConfig(__DIR__ . '/config/config.local.neon', FALSE);
 $container = $configurator->createContainer();
 
+$container->application->errorPresenter = 'Error';
+$container->application->catchExceptions = !$debugMode;
+
 if (!defined('CANCEL_START_APP')) {
 	$container->application->run();
 }
