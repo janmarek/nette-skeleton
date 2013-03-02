@@ -40,7 +40,7 @@ webloader:
         - http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js
         - http://ajax.aspnetcdn.com/ajax/knockout/knockout-2.1.0.js
       files:
-        - %appDir%/../libs/nette/nette/client-side/forms/netteForms.js
+        - %appDir%/../libs/nette/nette/client-side/netteForms.js
         - web.js
         - {files: "*.js", from: %appDir%/presenters}
 

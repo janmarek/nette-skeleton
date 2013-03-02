@@ -12,8 +12,8 @@
 		}
 	],
 	"require": {
-		"nette/nette": "2.0.5",
+		"nette/nette": "2.0.*",
 		"leafo/lessphp": "0.3.*",
-		"JanMarek/WebLoader": "dev-master"
+		"JanMarek/WebLoader": "2.1.*"
 	}
 }
