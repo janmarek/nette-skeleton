@@ -34,4 +34,10 @@ abstract class BasePresenter extends \Nette\Application\UI\Presenter
 		);
 	}
 
+	protected function afterRender()
+	{
+		parent::afterRender();
+		$this->template->siteTitle = $this->context->parameters['siteTitle'];
+	}
+
 }
